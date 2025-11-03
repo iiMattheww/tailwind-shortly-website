@@ -6,10 +6,20 @@
     ----breakpoint-lg: 976px;
     ----breakpoint-xl: 1440px;
 
-    --font-sans: "josefin Sans", sans-serif;
+    --font-sans: "Poppins", sans-serif;
     --font-alata: "Alata";
 
-    --tracking-widest: 0.3em;
+    /* --tracking-widest: 0.3em; */
+
+    --spaceing-180: 32rem;
+
+    --color-cyan: hsl(180 66% 49%);
+    --color-cyanLight: hsl(180, 66%, 69%);
+    --color-darkViolet: hsl(257, 27%, 26%);
+    --color-red: hsl(0, 87%, 67%);
+    --color-grayishViolet: hsl(257, 7%, 63%);
+    --color-veryDarkBlue: hsl(255, 11%, 22%);
+    --color-veryDarkViolet: hsl(260, 8%, 14%);
 }
 
 @layer base {
@@ -27,7 +37,7 @@
 }
 
 .btn {
-    @apply border-2 border-black px-10 py-2 my-0 font-bold font-alata uppercase md:block hover:text-white hover:bg-black tracking-widest
+    @apply border-2 border-black px-10 py-2 my-0 font-bold font-alata uppercase md:block hover:text-white hover:bg-black tracking-widest;
 }
 
 .item-gradient {
@@ -62,7 +72,7 @@
     position: absolute;
     width: 24px;
     height: 2px;
-    top:0;
+    top: 0;
     left: 0;
     background: #fff;
     transform: rotate(0);
@@ -82,7 +92,7 @@
 }
 
 .open .hamburger-top {
-    transform: rotate(45deg) translateY(6px) translateX(6px)
+    transform: rotate(45deg) translateY(6px) translateX(6px);
 }
 
 .open .hamburger-middle {
