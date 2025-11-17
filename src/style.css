@@ -1,17 +1,17 @@
 @import "tailwindcss";
 
 @theme {
-    ----breakpoint-sm: 480px;
+    /* ----breakpoint-sm: 480px;
     ----breakpoint-md: 768px;
     ----breakpoint-lg: 976px;
-    ----breakpoint-xl: 1440px;
+    ----breakpoint-xl: 1440px; */
 
     --font-sans: "Poppins", sans-serif;
     --font-alata: "Alata";
 
     /* --tracking-widest: 0.3em; */
 
-    --spaceing-180: 32rem;
+    /* --spaceing-180: 32rem; */
 
     --color-cyan: hsl(180 66% 49%);
     --color-cyanLight: hsl(180, 66%, 69%);
@@ -22,7 +22,7 @@
     --color-veryDarkViolet: hsl(260, 8%, 14%);
 }
 
-@layer base {
+/* @layer base {
     h5 {
         @apply absolute px-6 duration-200 w-52 bottom-4 md:bottom-8 md:px-10 group-hover:scale-110 group-hover:text-black;
     }
@@ -101,4 +101,4 @@
 
 .open .hamburger-bottom {
     transform: rotate(-45deg) translateY(6px) translateX(-6px);
-}
+} */
